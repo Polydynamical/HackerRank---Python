@@ -1,0 +1,6 @@
+# this was crazy hard since I don't know regex. I also made it nice and pretty - 3 lines of code :)
+
+import re
+
+for i in range(int(input())):
+    print(bool(re.search(r'^[-+]?[0-9]*\.[0-9]+$', input())))
