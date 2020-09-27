@@ -4,8 +4,7 @@
 # It’s guaranteed that every comma and every dot in s is preceeded and followed by a digit.
 
 # My sol:
+import re
 
 regex_pattern = r"[.,]"
-
-import re
 print("\n".join(re.split(regex_pattern, input())))
