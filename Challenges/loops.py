@@ -1,8 +1,8 @@
 # My solution:
 
 n = int(input())
-for index in range(0, n):
-    print(index**2) 
+for i in range(0, n):
+    print(i**2) 
    
 # Much cleaner solution I found:
 
